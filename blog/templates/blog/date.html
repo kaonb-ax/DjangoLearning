@@ -1,0 +1,9 @@
+
+{% extends "base.html" %}
+{% block title %}Mon restau{% endblock %}
+{% block content %}
+<h1>Bienvenue sur mon blog</h1>
+<p>La date actuelle est : {{ date }}</p>
+{% load static %}
+<img src="{% static 'blog/bg.jpg' %}" alt="Mon image" />
+{% endblock %}
